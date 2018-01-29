@@ -1,20 +1,28 @@
 {
-  "name": "emp-pretty",
-  "main": "./lib/emp-pretty",
-  "version": "0.0.0",
-  "description": "A short description of your package",
-  "keywords": [],
-  "activationCommands": {
-    "atom-workspace": [
-      "emp-pretty:toggle",
-      "emp-pretty:toggle1",
-      "emp-pretty:test"
-    ]
-  },
-  "repository": "https://github.com/atom/emp-pretty",
-  "license": "MIT",
-  "engines": {
-    "atom": ">=1.0.0 <2.0.0"
-  },
-  "dependencies": {}
+    "name": "emp-pretty",
+    "main": "./lib/emp-pretty",
+    "version": "0.0.0",
+    "description": "EMP 页面格式化",
+    "keywords": [
+        "EMP", "Pretty"
+    ],
+    "maintainers": [
+        {
+            "name": "Ju Chao",
+            "email": "ju.chao@rytong.com"
+        }
+    ],
+    "bugs": {
+        "url": "https://github.com/RYTong/emp-pretty/issues"
+    },
+    "author": "Ju chao <jcrom@163.com>",
+    "activationCommands": {
+        "atom-workspace": ["emp-pretty:toggle"]
+    },
+    "repository": "https://github.com/RYTong/emp-pretty",
+    "license": "MIT",
+    "engines": {
+        "atom": ">=1.0.0 <2.0.0"
+    },
+    "dependencies": {}
 }
