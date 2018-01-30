@@ -1,28 +1,31 @@
 {
-    "name": "emp-pretty",
-    "main": "./lib/emp-pretty",
-    "version": "0.0.0",
-    "description": "EMP 页面格式化",
-    "keywords": [
-        "EMP", "Pretty"
-    ],
-    "maintainers": [
-        {
-            "name": "Ju Chao",
-            "email": "ju.chao@rytong.com"
-        }
-    ],
-    "bugs": {
-        "url": "https://github.com/RYTong/emp-pretty/issues"
-    },
-    "author": "Ju chao <jcrom@163.com>",
-    "activationCommands": {
-        "atom-workspace": ["emp-pretty:toggle"]
-    },
-    "repository": "https://github.com/RYTong/emp-pretty",
-    "license": "MIT",
-    "engines": {
-        "atom": ">=1.0.0 <2.0.0"
-    },
-    "dependencies": {}
+  "name": "emp-pretty",
+  "main": "./lib/emp-pretty",
+  "version": "0.1.0",
+  "description": "EMP 页面格式化",
+  "keywords": [
+    "EMP",
+    "Pretty"
+  ],
+  "maintainers": [
+    {
+      "name": "Ju Chao",
+      "email": "ju.chao@rytong.com"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/RYTong/emp-pretty/issues"
+  },
+  "author": "Ju chao <jcrom@163.com>",
+  "activationCommands": {
+    "atom-workspace": [
+      "emp-pretty:toggle"
+    ]
+  },
+  "repository": "https://github.com/RYTong/emp-pretty",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {}
 }
