@@ -1,7 +1,7 @@
 {
   "name": "emp-pretty",
   "main": "./lib/emp-pretty",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "EMP 页面格式化",
   "keywords": [
     "EMP",
